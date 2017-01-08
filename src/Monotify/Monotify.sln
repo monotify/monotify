@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Monotify.API", "Monotify.API\Monotify.API.xproj", "{92B095A1-0F5A-4A17-BDC6-6EFFFD3617AA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Monotify.Console", "Monotify.Console\Monotify.Console.xproj", "{D535B9A8-D1C7-43D3-8DA3-BC53AED64026}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Monotify.Models", "Monotify.Models\Monotify.Models.xproj", "{540CADBA-122B-4079-AA89-BFC85EBA2AD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{264E0349-5BE6-4540-9489-8E64A2B308AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5401CDA4-B496-470A-B806-01A8FCED83CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92B095A1-0F5A-4A17-BDC6-6EFFFD3617AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B095A1-0F5A-4A17-BDC6-6EFFFD3617AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B095A1-0F5A-4A17-BDC6-6EFFFD3617AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B095A1-0F5A-4A17-BDC6-6EFFFD3617AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D535B9A8-D1C7-43D3-8DA3-BC53AED64026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D535B9A8-D1C7-43D3-8DA3-BC53AED64026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D535B9A8-D1C7-43D3-8DA3-BC53AED64026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D535B9A8-D1C7-43D3-8DA3-BC53AED64026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540CADBA-122B-4079-AA89-BFC85EBA2AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540CADBA-122B-4079-AA89-BFC85EBA2AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540CADBA-122B-4079-AA89-BFC85EBA2AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540CADBA-122B-4079-AA89-BFC85EBA2AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92B095A1-0F5A-4A17-BDC6-6EFFFD3617AA} = {264E0349-5BE6-4540-9489-8E64A2B308AC}
+		{D535B9A8-D1C7-43D3-8DA3-BC53AED64026} = {264E0349-5BE6-4540-9489-8E64A2B308AC}
+		{540CADBA-122B-4079-AA89-BFC85EBA2AD5} = {264E0349-5BE6-4540-9489-8E64A2B308AC}
+	EndGlobalSection
+EndGlobal
